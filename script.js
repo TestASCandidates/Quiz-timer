@@ -1,5 +1,5 @@
 const QUIZ_TIME = 30; // Time in minutes
-const FORM_URL = 'YOUR_GOOGLE_FORM_URL_HERE'; // Replace with your form URL
+const FORM_URL = 'https://forms.gle/hUHvDXbFHwi7NSmy7'; // Replace with your form URL
 
 let timeLeft = QUIZ_TIME * 60;
 let timerId = null;
@@ -15,7 +15,7 @@ function updateTimer() {
     if (timeLeft === 0) {
         clearInterval(timerId);
         alert('Time is up!');
-        window.location.href = 'YOUR_SUBMISSION_ENDED_PAGE';
+        window.location.href = 'https://www.youtube.com/watch?v=Pt0FTHW6nNo';
     }
     timeLeft--;
 }
